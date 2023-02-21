@@ -1,0 +1,4 @@
+1. RST
+2. NIL
+3. REQUESTS=<OPTIONS>, <PROPFIND>, <POST>
+4. <Maximum segment size>, <SACK permitted>, <Timestamps>, <No-Operation (NOP)>, <Window scale>

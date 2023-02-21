@@ -1,0 +1,58 @@
+[36mpart4-mitm-1  | [0mtcpdump: data link type LINUX_SLL2
+[36mpart4-mitm-1  | [0mtcpdump: listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Credentials
+[36mpart4-mitm-1  | [0m        Username:  Sabrina
+[36mpart4-mitm-1  | [0m        Password:  PleaseComeBack
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Set By Server
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Set By Server
+[36mpart4-mitm-1  | [0m        Name:   AnotherCookie
+[36mpart4-mitm-1  | [0m        Value:  WeAreTrackingYou O_O
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   AnotherCookie
+[36mpart4-mitm-1  | [0m        Value:  WeAreTrackingYou O_O
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   AnotherCookie
+[36mpart4-mitm-1  | [0m        Value:  WeAreTrackingYou O_O
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Set By Server
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:
+[36mpart4-mitm-1  | [0mtcpdump: data link type LINUX_SLL2
+[36mpart4-mitm-1  | [0mtcpdump: listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Credentials
+[36mpart4-mitm-1  | [0m        Username:  Sabrina
+[36mpart4-mitm-1  | [0m        Password:  PleaseComeBack
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Set By Server
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Set By Server
+[36mpart4-mitm-1  | [0m        Name:   AnotherCookie
+[36mpart4-mitm-1  | [0m        Value:  WeAreTrackingYou O_O
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   AnotherCookie
+[36mpart4-mitm-1  | [0m        Value:  WeAreTrackingYou O_O
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:  IReallyLikeSecureCookies
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Sent By Client
+[36mpart4-mitm-1  | [0m        Name:   AnotherCookie
+[36mpart4-mitm-1  | [0m        Value:  WeAreTrackingYou O_O
+[36mpart4-mitm-1  | [0mMITM:   Intercepted Cookie Set By Server
+[36mpart4-mitm-1  | [0m        Name:   session_id
+[36mpart4-mitm-1  | [0m        Value:

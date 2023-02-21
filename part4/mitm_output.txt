@@ -1,0 +1,47 @@
+Attaching to part4_mitm_1
+[36mmitm_1    |[0m tcpdump: data link type LINUX_SLL2
+[36mmitm_1    |[0m tcpdump: listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+[36mmitm_1    |[0m 2022/06/04 06:58:57 message too long
+[36mmitm_1    |[0m panic: message too long
+[36mmitm_1    |[0m 
+[36mmitm_1    |[0m goroutine 7 [running]:
+[36mmitm_1    |[0m log.Panic({0xc00004fe80?, 0xc0004805b2?, 0x5ea?})
+[36mmitm_1    |[0m 	/usr/local/go/src/log/log.go:385 +0x65
+[36mmitm_1    |[0m main.sendRawUDP(0x35, {0xc000a6ec1a, 0x4, 0xc000a6ec1a?}, {0xc0004805b2, 0x5ea, 0x5ea})
+[36mmitm_1    |[0m 	/p4/mitm.go:409 +0x132
+[36mmitm_1    |[0m main.handleUDPPacket({0x7fb1d0, 0xc00063d1e0})
+[36mmitm_1    |[0m 	/p4/mitm.go:282 +0x285
+[36mmitm_1    |[0m main.startDNSServer()
+[36mmitm_1    |[0m 	/p4/mitm.go:227 +0x19b
+[36mmitm_1    |[0m created by main.main
+[36mmitm_1    |[0m 	/p4/mitm.go:590 +0x31
+[36mmitm_1    |[0m exit status 2
+[36mmitm_1    |[0m tcpdump: data link type LINUX_SLL2
+[36mmitm_1    |[0m tcpdump: listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+[36mmitm_1    |[0m MITM:   Intercepted Credentials
+[36mmitm_1    |[0m         Username:  Sabrina
+[36mmitm_1    |[0m         Password:  PleaseComeBack
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Set By Server
+[36mmitm_1    |[0m         Name:   session_id
+[36mmitm_1    |[0m         Value:  IReallyLikeSecureCookies
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Sent By Client
+[36mmitm_1    |[0m         Name:   session_id
+[36mmitm_1    |[0m         Value:  IReallyLikeSecureCookies
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Set By Server
+[36mmitm_1    |[0m         Name:   AnotherCookie
+[36mmitm_1    |[0m         Value:  WeAreTrackingYou O_O
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Sent By Client
+[36mmitm_1    |[0m         Name:   session_id
+[36mmitm_1    |[0m         Value:  IReallyLikeSecureCookies
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Sent By Client
+[36mmitm_1    |[0m         Name:   AnotherCookie
+[36mmitm_1    |[0m         Value:  WeAreTrackingYou O_O
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Sent By Client
+[36mmitm_1    |[0m         Name:   session_id
+[36mmitm_1    |[0m         Value:  IReallyLikeSecureCookies
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Sent By Client
+[36mmitm_1    |[0m         Name:   AnotherCookie
+[36mmitm_1    |[0m         Value:  WeAreTrackingYou O_O
+[36mmitm_1    |[0m MITM:   Intercepted Cookie Set By Server
+[36mmitm_1    |[0m         Name:   session_id
+[36mmitm_1    |[0m         Value:  

@@ -1,0 +1,4 @@
+1. nmap -sS -p- -T4 -A scanme.nmap.org
+2. 45.33.32.156
+3. <80: http>, <22: ssh>, <31337: tcpwrapped>, <9929: nping-echo>
+4. SOFTWARE=<Apache httpd>, VERSION=<2.4.7>, PORTS=<80>

@@ -1,0 +1,52 @@
+version: '3.8'
+services:
+  dns:
+    build: ./
+    cap_add:
+      - NET_ADMIN
+    command: >
+      /bin/sh -c "tc qdisc add dev eth0 root netem delay 1s &&
+                  go run network/dns/dns_server.go"
+    networks:
+      bankwifi:
+        ipv4_address: 10.38.8.2
+  http:
+    build: ./
+    command: go run network/http/http_server.go
+    networks:
+      bankwifi:
+        ipv4_address: 10.38.8.3
+  client:
+    build: ./
+    volumes:
+      - type: bind
+        source: ./output/
+        target: /p4/output/
+    depends_on:
+      - "dns"
+      - "http"
+      - "mitm"
+    command: >
+      /bin/sh -c "tcpdump -i any -w output/packetdump-client.pcap &
+                  go run network/client/client.go"
+    networks:
+      bankwifi:
+        ipv4_address: 10.38.8.4
+  mitm:
+    build: ./
+    volumes:
+      - type: bind
+        source: ./output/
+        target: /p4/output/
+    command: >
+      /bin/sh -c "tcpdump -i any -w output/packetdump-mitm.pcap &
+                  go run fakebank.com/mitm"
+    networks:
+      bankwifi:
+        ipv4_address: 10.38.8.5
+
+networks:
+  bankwifi:
+    ipam:
+      config:
+        - subnet: "10.38.8.0/24"
