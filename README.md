@@ -18,3 +18,41 @@ The project consisted of four main parts:
 - Wireshark
 - Docker
 - gopacket library
+
+## Project Structure
+
+.
+├── part1/
+│   └── PortScanAnswers.txt
+├── part2/
+│   └── WiresharkAnswers.txt
+├── part3/
+│   └── detector.go
+├── part4/
+│   └── mitm.go
+└── network/
+└── network.go
+
+## Setup Instructions
+
+1. **Install required tools**:
+   - nmap
+   - Wireshark 
+   - Go
+   - Docker
+
+2. **Install Go dependencies**:
+```bash
+go mod download
+```
+
+3. **For Part 4 testing**:
+```
+bash start_images.sh
+bash run_client.sh
+bash stop_images.sh
+```
+
+## Acknowledgements
+
+Project components were originally developed by Stanford University, incorporating elements from the University of Michigan and University of Illinois.
