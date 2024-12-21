@@ -19,22 +19,6 @@ The project consisted of four main parts:
 - Docker
 - gopacket library
 
-## Project Structure
-
-```
-.
-├── part1/
-│   └── PortScanAnswers.txt
-├── part2/
-│   └── WiresharkAnswers.txt
-├── part3/
-│   └── detector.go
-├── part4/
-│   └── mitm.go
-└── network/
-└── network.go
-```
-
 ## Setup Instructions
 
 1. **Install required tools**:
