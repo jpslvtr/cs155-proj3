@@ -21,6 +21,7 @@ The project consisted of four main parts:
 
 ## Project Structure
 
+```
 .
 ├── part1/
 │   └── PortScanAnswers.txt
@@ -32,6 +33,7 @@ The project consisted of four main parts:
 │   └── mitm.go
 └── network/
 └── network.go
+```
 
 ## Setup Instructions
 
@@ -42,7 +44,7 @@ The project consisted of four main parts:
    - Docker
 
 2. **Install Go dependencies**:
-```bash
+```
 go mod download
 ```
 
