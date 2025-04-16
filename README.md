@@ -1,8 +1,8 @@
-# CS155: Network Security Project
+# CS155: Network Security
 
 This repository contains my completed implementation of Stanford's CS155 Computer Security course Project #3, which explores various aspects of network security through hands-on exercises.
 
-## Project Overview
+## Overview
 
 The project consisted of four main parts:
 
